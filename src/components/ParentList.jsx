@@ -1,6 +1,7 @@
 import React from 'react'
 import List from './List'
 import { useState } from 'react';
+// import ". "
 
 const ParentList = () => {
     const [display,setDisplay] = useState(false);
@@ -11,8 +12,8 @@ const ParentList = () => {
     const [display5,setDisplay5] = useState(false);
     const [display6,setDisplay6] = useState(false);
   return (
-    <div className='flex justify-between gap-6 w-full'>
-        <div className='flex flex-col gap-2'>
+    <div className='flex justify-between gap-6 w-full flex-container'>
+        <div className='flex flex-col gap-2 flex-item'>
             
           <button onClick={(e)=> {
             e.preventDefault()
@@ -27,7 +28,7 @@ const ParentList = () => {
           )}
 
         </div>
-        <div className='flex flex-col gap-2'>
+        <div className='flex flex-col gap-2 flex-item'>
             
           <button onClick={(e)=> {
             e.preventDefault()
@@ -42,7 +43,7 @@ const ParentList = () => {
          
 
         </div>
-        <div className='flex flex-col gap-2'>
+        <div className='flex flex-col gap-2 flex-item'>
             
           <button onClick={(e)=> {
             e.preventDefault()
@@ -57,7 +58,7 @@ const ParentList = () => {
           
 
         </div>
-        <div className='flex flex-col gap-2'>
+        <div className='flex flex-col gap-2 flex-item'>
             
           <button onClick={(e)=> {
             e.preventDefault()
@@ -72,7 +73,7 @@ const ParentList = () => {
           
 
         </div>
-        <div className='flex flex-col gap-2'>
+        <div className='flex flex-col gap-2 flex-item'>
             
           <button onClick={(e)=> {
             e.preventDefault()
@@ -86,7 +87,7 @@ const ParentList = () => {
           )}
          
         </div>
-        <div className='flex flex-col gap-2'>
+        <div className='flex flex-col gap-2 flex-item'>
             
           <button onClick={(e)=> {
             e.preventDefault()
@@ -101,7 +102,7 @@ const ParentList = () => {
         
 
         </div>
-        <div className='flex flex-col gap-2'>
+        <div className='flex flex-col gap-2 flex-item'>
             
           <button onClick={(e)=> {
             e.preventDefault()

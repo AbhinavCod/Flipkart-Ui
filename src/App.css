@@ -40,3 +40,13 @@
 .read-the-docs {
   color: #888;
 }
+.flex-container {
+  display: flex;
+  overflow-x: auto; /* Enable horizontal scrolling */
+  -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */
+}
+
+.flex-item {
+  flex: 0 0 auto;
+  white-space: nowrap; /* Prevent button wrapping */
+}
