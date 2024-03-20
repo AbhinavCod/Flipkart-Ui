@@ -22,11 +22,11 @@ function App() {
       <ControlledCarousel />
       <div className='flex gap-4 justify-between'>
         <Card url={"https://m.media-amazon.com/images/I/41tSQSq1xJL._AC_SY200_.jpg"} label={"Limited Deal Offer"} price={"₹ 50,000/-"}/>
-        <Card url={"https://m.media-amazon.com/images/I/41tSQSq1xJL._AC_SY200_.jpg"} label={"Limited Deal Offer"} price={"₹ 50,000/-"}/>
-        <Card url={"https://m.media-amazon.com/images/I/41tSQSq1xJL._AC_SY200_.jpg"} label={"Limited Deal Offer"} price={"₹ 50,000/-"}/>
-        <Card url={"https://m.media-amazon.com/images/I/41tSQSq1xJL._AC_SY200_.jpg"} label={"Limited Deal Offer"} price={"₹ 50,000/-"}/>
-        <Card url={"https://m.media-amazon.com/images/I/41tSQSq1xJL._AC_SY200_.jpg"} label={"Limited Deal Offer"} price={"₹ 50,000/-"}/>
-        <Card url={"https://m.media-amazon.com/images/I/41tSQSq1xJL._AC_SY200_.jpg"} label={"Limited Deal Offer"} price={"₹ 50,000/-"}/>
+        <Card url={"https://m.media-amazon.com/images/I/81ratqQtFfL._AC_SY200_.jpg"} label={"Limited Deal Offer"} price={"₹ 50,000/-"}/>
+        <Card url={"https://m.media-amazon.com/images/I/71sAn2UfxPL._AC_SY200_.jpg"} label={"Limited Deal Offer"} price={"₹ 50,000/-"}/>
+        <Card url={"https://m.media-amazon.com/images/I/61XwOVLs4xL._AC_SY200_.jpg"} label={"Limited Deal Offer"} price={"₹ 50,000/-"}/>
+        <Card url={"https://m.media-amazon.com/images/I/91Zb64yWENL._AC_SY200_.jpg"} label={"Limited Deal Offer"} price={"₹ 50,000/-"}/>
+        <Card url={"https://images-eu.ssl-images-amazon.com/images/G/31/2023/GateWay/December/CC/PC_379x304_1._SY304_CB572341311_.jpg"} label={"Limited Deal Offer"} price={"₹ 50,000/-"}/>
       </div>
         <Footer />
     
